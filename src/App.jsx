@@ -6,6 +6,8 @@ function App() {
   return (
     <>
     <Footer/>
+    {/* <h1>hello GAutam-asso</h1> */}
+    <Project />
     </>
   )
 }
