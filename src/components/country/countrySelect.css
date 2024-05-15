@@ -1,0 +1,24 @@
+.custom-txt{
+    color: #D0C2B0;
+}
+
+.selectionBox {
+    position: relative; /* relative */
+    display: inline-block; /* inline-block */
+    background-color: inherit; /* bg-inherit */
+  }
+  
+  .selectBtn {
+    display: block; /* block */
+    width: 100%; /* w-full */
+    padding: 0.5rem 1rem; /* px-4 py-2 */
+    padding-right: 2rem; /* pr-8 */
+    background-color: #523825; /* bg-black */
+    border-radius: 0.375rem; /* rounded */
+    border: 1px solid transparent; /* border */
+    outline: none; /* focus:outline-none */
+  }
+  
+  .selectBtn:focus {
+    border-color: #3b82f6; /* focus:border-blue-500 */
+  }
